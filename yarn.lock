@@ -1604,6 +1604,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@openmeteo/sdk@^1.11.4":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@openmeteo/sdk/-/sdk-1.17.0.tgz#7a3b8db3140ae669d42cdf970ee552346510fd0b"
+  integrity sha512-N94qtFgJLz6ygE4w7sfQZ/HFcqbAHDJTMKhzgfnxshaam5mlNueogjaFGi35m0xiQXaqt4KsHthPVOXJksWMhA==
+  dependencies:
+    flatbuffers "^24.3.25"
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -4708,6 +4715,11 @@ flat-cache@^3.0.4:
     keyv "^4.5.3"
     rimraf "^3.0.2"
 
+flatbuffers@^24.3.25:
+  version "24.3.25"
+  resolved "https://registry.yarnpkg.com/flatbuffers/-/flatbuffers-24.3.25.tgz#e2f92259ba8aa53acd0af7844afb7c7eb95e7089"
+  integrity sha512-3HDgPbgiwWMI9zVB7VYBHaMrbOO7Gm0v+yD2FV/sCKj+9NDeVL7BOBYUuhWAQGKWOzBo8S9WdMvV0eixO233XQ==
+
 flatted@^3.2.9:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.3.1.tgz#21db470729a6734d4997002f439cb308987f567a"
@@ -6894,6 +6906,14 @@ open@^8.0.9, open@^8.4.0:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
+
+openmeteo@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/openmeteo/-/openmeteo-1.1.4.tgz#9582363637c6fb8f65f43fe54124d16f38a851f4"
+  integrity sha512-TalTDl0M7JJoeRTf+rWiFZ9SLvoxm7KkFLOQqcSjCiYs+bVMhax1qtryJqeZ1RF4W4Xfsgcl9x+VC1z39ULCxA==
+  dependencies:
+    "@openmeteo/sdk" "^1.11.4"
+    flatbuffers "^24.3.25"
 
 optionator@^0.8.1:
   version "0.8.3"

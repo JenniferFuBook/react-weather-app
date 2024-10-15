@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  background: url('../../../public/cloud.png') no-repeat 200px 80px;
+  font-family: monospace;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: blue;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
