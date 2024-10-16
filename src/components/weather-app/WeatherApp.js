@@ -12,7 +12,7 @@ export const WeatherApp = ({
   const [errorMsg, setErrorMsg] = useState('');
 
   // State management to track the loading state to get image list
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const getWeatherData = async () => {
